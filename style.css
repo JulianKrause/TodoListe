@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #21201E; /*#21201E*/
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+h1 {
+    color: aqua;
+    font-size: 5rem;
+    text-align: center;
+    opacity: 0.5;
+}
+
+form {
+    box-shadow: 0 4px 10px rgb(251, 251, 251);
+    max-width: 100%;
+    width: 400px;
+
+}
+
+.input {
+    background-color: #21201E;
+    border: none;
+    color: silver;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    display: block;
+    width: 100%;
+}
+
+.input::placeholder {
+    color: silver;
+}
+
+input:focus {
+    outline-color: #21201E;
+}
+
+.todos {
+    background-color: #21201E;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.todos li {
+    border-top: 1px solid white;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+}
+
+.todos li.completed {
+    color: silver;
+    text-decoration: line-through;
+}
+
+small {
+    margin-top: 3rem;
+    text-align: center;
+    color: silver;
+}
+
